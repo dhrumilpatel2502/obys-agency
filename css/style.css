@@ -728,9 +728,32 @@ body {
 }
 
 #footer h1 {
-    font-size: 7vw;
+    font-size: 7.2vw;
     text-transform: uppercase;
     position: relative;
+}
+
+#footer-text {
+    position: relative;
+    /* background-color: red; */
+}
+
+#footer-text h2 {
+    font-size: 7.2vw;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10%;
+    font-weight: 500;
+
+    left: 0;
+    font-family: "silk serif";
+}
+
+#footer-text h2 span {
+    font-family: "silk serif";
+    opacity: 0;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
 }
 
 #footer h1::before {
@@ -739,8 +762,8 @@ body {
     font-size: 3vw;
     font-weight: 100;
     font-family: "silk serif";
-    left: -12%;
-    top: 8%;
+    left: -13%;
+    top: 6%;
 }
 
 .underline {
@@ -1267,7 +1290,29 @@ body {
         font-weight: 100;
         font-family: "silk serif";
         left: 0%;
-        top: -68%;
+        top: -70%;
+    }
+
+    #footer-text {
+        position: relative;
+        /* background-color: red; */
+    }
+
+    #footer-text h2 {
+        font-size: 9.7vw;
+        position: absolute;
+        top: -10%;
+        font-weight: 500;
+        opacity: 0;
+        left: 0;
+        font-family: "silk serif";
+    }
+
+    #footer-text h2 span {
+        font-family: "silk serif";
+        opacity: 0;
+        -webkit-text-stroke: 1px #fff;
+        color: transparent;
     }
 
     .underline {
